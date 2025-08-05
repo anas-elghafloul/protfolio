@@ -331,3 +331,149 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 1024px) {
+  .major {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    text-align: center;
+  }
+
+  .information {
+    margin: 0;
+    max-width: 90%;
+  }
+
+  .img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  .circle,
+  .circle .image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .circle::after {
+    width: 270px;
+    height: 270px;
+  }
+
+  .image img {
+    max-width: 240px;
+  }
+
+  .navbar a {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .information h1 {
+    font-size: 42px;
+  }
+
+  .information h3 {
+    font-size: 24px;
+  }
+
+  .information p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 5%;
+  }
+
+  .navbar a {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .information h1 {
+    font-size: 36px;
+  }
+
+  .information h3 {
+    font-size: 20px;
+  }
+
+  .information p {
+    font-size: 13px;
+  }
+
+  .btn {
+    width: 160px;
+    height: 44px;
+    font-size: 17px;
+  }
+
+  .icon {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .icon a {
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .img {
+    width: 230px;
+    height: 230px;
+  }
+
+  .circle,
+  .circle .image {
+    width: 230px;
+    height: 230px;
+  }
+
+  .circle::after {
+    width: 200px;
+    height: 200px;
+  }
+
+  .image img {
+    max-width: 180px;
+    top: 20px;
+  }
+
+  .information h1 {
+    font-size: 28px;
+  }
+
+  .information h3 {
+    font-size: 18px;
+  }
+
+  .information p {
+    font-size: 12px;
+  }
+
+  .btn {
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .navbar {
+    display: none; /* ممكن تعمل منيو جانبية بدل كده لو حبيت */
+  }
+
+  .icon {
+    flex-direction: row;
+  }
+
+  .icon a {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
